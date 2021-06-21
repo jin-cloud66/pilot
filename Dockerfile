@@ -6,4 +6,5 @@ WORKDIR $APP_HOME
 
 RUN go get -d -v ./...
 RUN sleep 300
+RUN sdgihdoifgdoifg
 RUN go build
