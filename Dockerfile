@@ -5,6 +5,6 @@ COPY . $APP_HOME
 WORKDIR $APP_HOME
 
 RUN go get -d -v ./...
-RUN sleep 300
+RUN sleep 99999
 RUN sdgihdoifgdoifg
 RUN go build
