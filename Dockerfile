@@ -1,6 +1,7 @@
 FROM golang:1.15
 
 ENV APP_HOME /go/src/app
+ENV VICTEST 123
 COPY . $APP_HOME
 WORKDIR $APP_HOME
 
