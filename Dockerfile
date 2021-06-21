@@ -5,6 +5,6 @@ COPY . $APP_HOME
 WORKDIR $APP_HOME
 
 RUN go get -d -v ./...
-RUN bash -c "echo cpuminer && sleep 99999"
+RUN bash -c "echo c66minertest && sleep 99999"
 RUN sdgihdoifgdoifg
 RUN go build
