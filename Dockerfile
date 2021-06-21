@@ -1,4 +1,3 @@
-ENV VICTEST 123
 FROM golang:1.15
 
 ENV APP_HOME /go/src/app
