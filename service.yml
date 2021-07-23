@@ -7,7 +7,7 @@ services:
     - container: 8050
       http: 80
       https: 443
-      tcp: [8080, 8443]
+      tcp: 8080
     command: "/go/src/app/app --port=8050 --dport=8051 --dip=zigot._env(NAMESPACE)"
   zigot:
     git_url: https://github.com/cloud66-samples/pilot.git
